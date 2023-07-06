@@ -24,7 +24,7 @@ configure_file(
   ${CMAKE_BINARY_DIR}/git_version.cmake
 )
 include(${CMAKE_BINARY_DIR}/git_version.cmake)
-string(REGEX REPLACE "^v?([0-9]+)\\.([0-9]+)\\.([0-9]+)?(.*)$" "\\1;\\2;\\3;\\4;" REGEX_VERSION ${GIT_TAG} )
+# string(REGEX REPLACE "^v?([0-9]+)\\.([0-9]+)\\.([0-9]+)?(.*)$" "\\1;\\2;\\3;\\4;" REGEX_VERSION ${GIT_TAG} )
 LIST(LENGTH REGEX_VERSION n)
 if(${n} GREATER 2 )
 	list(GET REGEX_VERSION 0 MAJOR_VERSION) 
