@@ -12,10 +12,12 @@ On ubuntu, PixelAnnotationTool need this pacakage (OpenCV and Qt5.9.1):
 ```sh
 sudo apt-get install mesa-common-dev
 sudo apt-get install libopencv-dev python-opencv
-wget http://download.qt.io/official_releases/qt/5.9/5.9.1/qt-opensource-linux-x64-5.9.1.run
-chmod +x qt-opensource-linux-x64-5.9.1.run
-./qt-opensource-linux-x64-5.9.1.run
 
+```
+Ensure you have QT5 installed and get the install path with:
+
+```sh
+qmake --version
 ```
 
 To compile the application : 
