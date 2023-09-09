@@ -461,6 +461,39 @@
             "id": 41,
             "id_categorie": 2,
             "name": "cracker box"
+        },
+        "tall blue can": {
+            "categorie": "object",
+            "color": [
+                110,
+                251,
+                167
+            ],
+            "id": 42,
+            "id_categorie": 2,
+            "name": "tall blue can"
+        },
+        "short red can": {
+            "categorie": "object",
+            "color": [
+                130,
+                30,
+                128
+            ],
+            "id": 43,
+            "id_categorie": 2,
+            "name": "short red can"
+        },
+        "paper towels": {
+            "categorie": "object",
+            "color": [
+                207,
+                99,
+                128
+            ],
+            "id": 44,
+            "id_categorie": 2,
+            "name": "paper towels"
         }
     }
 }
