@@ -462,7 +462,7 @@
             "id_categorie": 2,
             "name": "cracker box"
         },
-        "tall blue can": {
+        "short blue can": {
             "categorie": "object",
             "color": [
                 110,
@@ -473,7 +473,7 @@
             "id_categorie": 2,
             "name": "tall blue can"
         },
-        "short red can": {
+        "tall red can": {
             "categorie": "object",
             "color": [
                 130,
