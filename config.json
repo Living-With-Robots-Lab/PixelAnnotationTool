@@ -494,6 +494,29 @@
             "id": 44,
             "id_categorie": 2,
             "name": "paper towels"
+        }.
+        "black table": {
+            "categorie": "object",
+            "color": [
+                207,
+                99,
+                34
+            ],
+            "id": 45,
+            "id_categorie": 2,
+            "name": "black table"
+        }.
+        "fridge": {
+            "categorie": "object",
+            "color": [
+                34,
+                99,
+                34
+            ],
+            "id": 46,
+            "id_categorie": 2,
+            "name": "fridge"
         }
+
     }
 }
